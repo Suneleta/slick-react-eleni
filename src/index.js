@@ -6,13 +6,13 @@ import "./index.css";
 class ReactSlickDemo extends React.Component {
   render() {
     var settings = {
-      dots: true
+      dots: false
     };
     return (
       <div className="container">
         <Slider {...settings}>
           <div>
-            <img src="http://placekitten.com/g/400/200" />
+            <img src="http://i66.tinypic.com/m0pro.jpg" />
             <h1>SOS Delfines</h1>
             <p>
               We raise awareness about the problems that cetaceans are facing
@@ -32,7 +32,7 @@ class ReactSlickDemo extends React.Component {
             </h4>
           </div>
           <div>
-            <img src="http://placekitten.com/g/400/200" />
+            <img src="http://i68.tinypic.com/2wmnsi8.jpg" />
             <h1>Amics Noguera</h1>
             <p>
               We are a group of volunteers from the region of La Noguera
@@ -44,7 +44,7 @@ class ReactSlickDemo extends React.Component {
               animals. Volunteers strive to give dogs and cats decent living
               conditions. With this campaign we want to finance the conditioning
               of our dogs' homes, as many of their homes are not adequately
-              protected against the weather.
+              protected against the weather."
             </p>
             <h4>
               <a href="#">Read more</a>
